@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Threading.Tasks;
 
 public class TriggerChest : MonoBehaviour {
     public Animator chest;
@@ -9,11 +10,13 @@ public class TriggerChest : MonoBehaviour {
     bool firstTrigger = true;
     void Start()  { }
 
-    void Update() { }
+    void Update() {
+        if(nave.GetAnimatorTransitionInfo(0).fullPathHash == 654500191) {
+            nave.SetBool("is_Triggered", false);
+        }
+     }
 
     private void OnTriggerEnter(Collider other) {
-        print("something");
-        
         if(firstTrigger) {
             firstTrigger = false;
             chest.SetBool("first_Open", true);
