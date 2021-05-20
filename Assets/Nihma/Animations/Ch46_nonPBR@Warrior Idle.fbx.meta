@@ -522,18 +522,18 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: Ch46_nonPBR(Clone)
+    - name: mini-Nihma(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Ch46
-      parentName: Ch46_nonPBR(Clone)
+      parentName: mini-Nihma(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: mixamorig:Hips
-      parentName: Ch46_nonPBR(Clone)
+      parentName: mini-Nihma(Clone)
       position: {x: -0.0000010774413, y: 0.69749016, z: -0.0039418023}
       rotation: {x: -1.480898e-14, y: -0.00000029621924, z: 0.00000945409, w: 1}
       scale: {x: 1, y: 1, z: 1}
@@ -869,7 +869,7 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 07b010f1171973e438ca50c9da405b42,
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 1b2aadd4b5223094a863865cedd2fb2b,
     type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
