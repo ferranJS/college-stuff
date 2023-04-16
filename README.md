@@ -1,2 +1,5 @@
 # ADV2021
-Simple URP project, ready to be compiled for WebGL.
+
+## Unity
+
+Simple Universal Render Pipeline project, ready to be compiled for WebGL.
