@@ -2,7 +2,6 @@
 # college-projects
 Repo with my work done in college related mostly to algorithms, computational models, etc.
 
-
 ## [Mathematica Modules](/mathematica-modules/)
 ### formal_languages.nb
 Processing of Formal Languages (few modules)
@@ -13,15 +12,13 @@ Binary Celular Automata generation for language recognition (few modules)
 ### pSystem.nb
 Operation of various P systems without formalization
 
-
 ## [Unity](/Unity/)
+
+[Result](https://simmer.io/@fewNeurons/nihma-power)
+
 Simple Universal Render Pipeline project, ready to be compiled for WebGL.
 
 Done for the Animation and Videogame Design subject when studying at UPV (Universitat Politècnica de València)
-
-
-## [Jupyter notebook](/jupyter-notebook.ipynb)
-### Branch and Bound Algorithmic Approach for (N-Queens on Weighted Board)
 
 ## [Spell Suggester - Python project](/spell-suggester/)
 
@@ -43,3 +40,6 @@ During the execution, there is also live feedback given about the state of the e
 - The directory corpora contains excerpts of the quijote.txt file of different size as well as the reference data for the SAR project (Newspaper archives in .json format)
 
 ## [handwritten-digit-recognizer](handwritten-digit-recognizer/)
+
+## [Jupyter notebook](/jupyter-notebook.ipynb)
+### Branch and Bound Algorithmic Approach for (N-Queens on Weighted Board)
